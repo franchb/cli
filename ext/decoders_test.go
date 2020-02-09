@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mkideal/cli"
+	"github.com/franchb/cli"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -9,7 +9,7 @@ import (
 	"text/template"
 
 	"github.com/labstack/gommon/color"
-	"github.com/mkideal/cli"
+	"github.com/franchb/cli"
 )
 
 type argT struct {
@@ -92,7 +92,7 @@ func run(ctx *cli.Context, argv *argT) error {
 var commandTpl = `package {{.Package}}
 
 import (
-	"github.com/mkideal/cli"
+	"github.com/franchb/cli"
 )
 
 type {{.ArgvTypeName}} struct {
@@ -126,7 +126,7 @@ func main() {
 			return nil
 		}
 		return run(ctx, argv)
-	}, fmt.Sprintf(`%s used to create a new command for github.com/mkideal/cli
+	}, fmt.Sprintf(`%s used to create a new command for github.com/franchb/cli
 
 %s: clier [OPTIONS] COMMAND-NAME
 

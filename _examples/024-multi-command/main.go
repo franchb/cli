@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mkideal/cli"
+	"github.com/franchb/cli"
 )
 
 const version = "v1.0.0"
