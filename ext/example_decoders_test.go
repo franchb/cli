@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/mkideal/cli"
-	"github.com/mkideal/cli/ext"
+	"github.com/franchb/cli"
+	"github.com/franchb/cli/ext"
 )
 
 // This example demonstrates usage of Time decoder

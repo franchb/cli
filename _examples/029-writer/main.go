@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"os"
 
-	"github.com/mkideal/cli"
-	clix "github.com/mkideal/cli/ext"
+	"github.com/franchb/cli"
+	clix "github.com/franchb/cli/ext"
 )
 
 type argT struct {

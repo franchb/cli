@@ -6,7 +6,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/mkideal/cli"
+	"github.com/franchb/cli"
 )
 
 func ExampleRun() {
